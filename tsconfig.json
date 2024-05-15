@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,    
+    "strict": true, // ativa em conjunto as regras "strict" (inclusive as de baixo) que deixa o código mais seguro
+    // "noImplicitAny": true,
+    // "noEmitOnError": true, // impede a geração de arquivo js se houver erro durante a compilação
+    // "noUnusedLocals": true, // verifica se não tem varíavel sem usar
+    // "strictNullChecks": true, // força a verificação de valores nulos e indefinidos
+    // "strictPropertyInitialization": true // assegura que todas as proriedades das classes foram inicializadas, evitando propriedades indefinidas
+  },
+  "include": ["./src/**/*", "./server.ts"]
+}
